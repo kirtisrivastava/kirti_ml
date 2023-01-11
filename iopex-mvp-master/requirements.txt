@@ -1,0 +1,9 @@
+scrapy
+selenium
+holmium.core
+mysqlclient
+scrapy-splash
+beautifulsoup4
+lxml
+w3lib
+

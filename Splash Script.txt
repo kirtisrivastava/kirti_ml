@@ -1,0 +1,95 @@
+
+#Kirti Srivastava <kirti.sri1987@gmail.com>
+#Thu, Sep 21, 2017, 6:36 PM
+#to me
+
+local treat = require('treat')
+local hrefs = {}
+local el
+local pic = {}
+local pics = {}
+local all_pages = {}
+
+function main(splash)
+  splash:go(splash.args.url)
+  splash:wait(10)
+  splash:set_viewport_full()
+  splash:select('a:nth-child(1)'):click()
+  splash:wait(10)
+  local form = splash:select('#frmLogin')
+  local values = {
+    username = 'krish@iopex.com',
+    password = 'iopex@123'
+  }
+ 
+  form:fill(values)
+  form:submit()
+  splash:wait(10)
+  splash:select("div[onclick]"):click()
+  splash:wait(10)
+  splash:select('#personsearch'):click()
+  splash:select('#welcomeLink'):click()
+  splash:select('#personsearch'):click()
+ 
+  Positions = treat.as_array{'CIO','VP','Director'}
+  Industries = treat.as_array{ 'Banking', 'Insurance', 'Automobiles', 'Food', 'Beverages & Tobacco', 'Media & Internet', 'Software', 'Retail', 'Telecommunications'}
+  Country = treat.as_array{'United States'}
+  l = 1
+  while l< 4 do
+    splash:select('#clearCriteriaButton'):click()
+    splash:wait(5)   
+    m =1
+    while m < 10 do
+      local  COUNTRY = splash:select('input[name="address"]')
+      COUNTRY:send_text(Country[1])
+      splash:wait(5)
+      local TITLE = splash:select('input[name="title"]')
+      TITLE:send_text(Positions[l])
+      splash:wait(5)
+      local  INDUSTRY = splash:select('input[name="industryKeywords"]')
+      INDUSTRY:send_text(Industries[m])   
+   
+      splash:wait(5)
+         
+      el = splash:select('.personPageNext.nextPage.pageTextLink.setCriterion.visible')
+      i = 0
+      while i < 25  do
+        j = 1
+        while j < 25 do
+          n = string.format("tr:nth-child(%s)>td:nth-child(2)>a",j )
+             splash:select(n):click()
+          --------------splash:select('.personName>a'):click()
+          splash:wait(10)
+          Summary = splash:select('.personSummary'):text()
+          Contact = splash:select('#personContact'):text()
+          ------------Address = splash:select('.localAddress'):text()
+          hrefs[#hrefs+1] = Summary..Contact
+         
+                    -------------hrefs[#hrefs+1] = n
+          ------------------hrefs[#hrefs+1] = splash:png()
+         
+          j = j+1
+          end
+            el:click()
+            all_pages[#all_pages+1] = hrefs
+           
+          el = splash:select('.personPageNext.nextPage.pageTextLink.setCriterion.visible')
+          i=i+1        
+      end     
+       
+        pic[#pic+1] = hrefs[m]        
+        m=m+1
+        splash:select('#clearCriteriaButton'):click()
+        splash:wait(5)
+        end
+        pics[#pics+1] = pic[l]            
+        l = l+1         
+        end
+      return {
+        pic=treat.as_array(pic),
+        pics=treat.as_array(pics),
+        href=treat.as_array(all_pages),
+        pos = Positions[1]         
+      }
+    end
+

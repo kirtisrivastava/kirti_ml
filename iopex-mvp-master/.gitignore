@@ -1,0 +1,9 @@
+.idea/*.iml
+.idea/**/*.xml
+.idea/workspace.xml
+*.pyc
+*.json
+
+taleo_splash/kj.json
+taleo_splash/kj123.json
+taleo_splash/scrashtest/lk.json

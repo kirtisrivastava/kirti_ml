@@ -36,11 +36,11 @@ class LabelMapping():
                     return 1
                     
                 if value in self.label_map_value_to_key: 
-                    print ("load_label_and_inverse_mapping: Terminating, Duplicate value found:", value)
+                    print ("load_label_and_inverse_mapping: Terminating, Duplicate value found:", value )
                     return 1
 
                 if value == 0:
-                    print ("load_label_and_inverse_mapping: Terminating, Zero value found, should start from 1", key, value) 
+                    print ("load_label_and_inverse_mapping: Terminating, Zero value found, should start from 1", key, value )
                     return 1
 
                 self.label_map_key_to_value[key] = value
@@ -54,14 +54,14 @@ class LabelMapping():
         if label_str in self.label_map_key_to_value:
             return self.label_map_key_to_value[label_str]
 
-        print ("get_label_value: Continuing, label not found for key:", key)
+        #print "get_label_value: Continuing, label not found for key:", key 
         return -1
 
     def get_label_string(self, label_value):
         if label_value in self.label_map_value_to_key:
             return self.label_map_value_to_key[label_value]
 
-        print ("get_label_string: Continuing, label not found for value:", value) 
+        # print "get_label_string: Continuing, label not found for value:", value 
         return -1
 
     def get_num_classes(self):

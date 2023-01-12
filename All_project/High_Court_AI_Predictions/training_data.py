@@ -11,7 +11,7 @@ class TrainingData():
         return
 
     def do_cleaning(self, input_str):
-        input_str = self.regex.sub(' ', input_str.decode('utf-8').lower())
+        input_str = self.regex.sub(' ', str(input_str).lower())
         input_str = " ".join(input_str.split())
         return input_str
 

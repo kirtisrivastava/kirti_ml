@@ -1,0 +1,177 @@
+date_col,Product Name,Ad Spend,CTR
+2017-06-01,Un-Mapped,10,9
+2017-06-02,Un-Mapped,10,13
+2017-06-03,Un-Mapped,10,8
+2017-06-04,Un-Mapped,11,8
+2017-06-05,Un-Mapped,11,9
+2017-06-06,Un-Mapped,12,9
+2017-06-07,Un-Mapped,11,5
+2017-06-08,Un-Mapped,11,6
+2017-06-09,Un-Mapped,12,4
+2017-06-10,Un-Mapped,12,4
+2017-06-01,Beltway Divisional Res,1,1
+2017-06-02,Beltway Divisional Res,1,1
+2017-06-03,Beltway Divisional Res,1,1
+2017-06-04,Beltway Divisional Res,1,1
+2017-06-08,Beltway Divisional Res,1,0
+2017-06-10,Beltway Divisional Res,1,2
+2017-06-01,Brand,12,22
+2017-06-02,Brand,11,21
+2017-06-03,Brand,7,17
+2017-06-04,Brand,6,16
+2017-06-05,Brand,12,19
+2017-06-06,Brand,9,17
+2017-06-07,Brand,7,20
+2017-06-08,Brand,11,21
+2017-06-09,Brand,8,20
+2017-06-10,Brand,6,16
+2017-06-01,Corporate Reputation Image,2,4
+2017-06-02,Corporate Reputation Image,4,6
+2017-06-03,Corporate Reputation Image,3,5
+2017-06-04,Corporate Reputation Image,3,4
+2017-06-05,Corporate Reputation Image,3,5
+2017-06-06,Corporate Reputation Image,4,5
+2017-06-07,Corporate Reputation Image,4,7
+2017-06-08,Corporate Reputation Image,6,6
+2017-06-09,Corporate Reputation Image,5,7
+2017-06-10,Corporate Reputation Image,4,6
+2017-06-01,Corporate Reputation Transaction,4,1
+2017-06-02,Corporate Reputation Transaction,4,1
+2017-06-03,Corporate Reputation Transaction,5,1
+2017-06-04,Corporate Reputation Transaction,4,1
+2017-06-05,Corporate Reputation Transaction,4,1
+2017-06-06,Corporate Reputation Transaction,5,3
+2017-06-07,Corporate Reputation Transaction,5,2
+2017-06-08,Corporate Reputation Transaction,4,3
+2017-06-09,Corporate Reputation Transaction,5,3
+2017-06-10,Corporate Reputation Transaction,5,2
+2017-06-01,DIVN,2,3
+2017-06-02,DIVN,2,4
+2017-06-03,DIVN,1,3
+2017-06-04,DIVN,1,3
+2017-06-05,DIVN,1,3
+2017-06-06,DIVN,3,3
+2017-06-07,DIVN,2,3
+2017-06-08,DIVN,2,6
+2017-06-09,DIVN,1,3
+2017-06-10,DIVN,2,3
+2017-06-08,Freedom Divisional Res,2,1
+2017-06-01,Freedom Regional Res,2,1
+2017-06-02,Freedom Regional Res,2,1
+2017-06-03,Freedom Regional Res,2,1
+2017-06-04,Freedom Regional Res,2,1
+2017-06-05,Freedom Regional Res,2,1
+2017-06-06,Freedom Regional Res,2,1
+2017-06-07,Freedom Regional Res,2,1
+2017-06-08,Freedom Regional Res,2,1
+2017-06-09,Freedom Regional Res,2,1
+2017-06-10,Freedom Regional Res,2,1
+2017-06-01,GBR Divisional Res,1,1
+2017-06-02,GBR Divisional Res,1,1
+2017-06-03,GBR Divisional Res,1,1
+2017-06-04,GBR Divisional Res,1,1
+2017-06-05,GBR Divisional Res,1,1
+2017-06-06,GBR Divisional Res,1,1
+2017-06-07,GBR Divisional Res,1,1
+2017-06-08,GBR Divisional Res,1,1
+2017-06-09,GBR Divisional Res,1,1
+2017-06-10,GBR Divisional Res,1,1
+2017-06-01,GBR Regional Res,1,9
+2017-06-02,GBR Regional Res,2,10
+2017-06-03,GBR Regional Res,1,9
+2017-06-04,GBR Regional Res,1,9
+2017-06-05,GBR Regional Res,1,9
+2017-06-06,GBR Regional Res,1,9
+2017-06-07,GBR Regional Res,1,9
+2017-06-08,GBR Regional Res,1,9
+2017-06-09,GBR Regional Res,1,9
+2017-06-10,GBR Regional Res,1,9
+2017-06-01,Keystone Regional Res,2,2
+2017-06-01,Movers,4,7
+2017-06-02,Movers,2,7
+2017-06-03,Movers,3,7
+2017-06-04,Movers,3,8
+2017-06-05,Movers,3,7
+2017-06-06,Movers,3,7
+2017-06-07,Movers,3,10
+2017-06-08,Movers,3,9
+2017-06-09,Movers,3,8
+2017-06-10,Movers,3,11
+2017-06-01,Multi-Dwelling Units,1,2
+2017-06-02,Multi-Dwelling Units,1,2
+2017-06-05,Multi-Dwelling Units,1,2
+2017-06-06,Multi-Dwelling Units,1,2
+2017-06-07,Multi-Dwelling Units,1,2
+2017-06-08,Multi-Dwelling Units,1,2
+2017-06-09,Multi-Dwelling Units,1,2
+2017-06-01,Multiple Product Codes,1,1
+2017-06-02,Multiple Product Codes,1,1
+2017-06-03,Multiple Product Codes,1,1
+2017-06-04,Multiple Product Codes,1,1
+2017-06-05,Multiple Product Codes,1,1
+2017-06-06,Multiple Product Codes,1,1
+2017-06-07,Multiple Product Codes,1,1
+2017-06-08,Multiple Product Codes,1,1
+2017-06-09,Multiple Product Codes,1,1
+2017-06-10,Multiple Product Codes,1,1
+2017-06-01,NEDV,12,24
+2017-06-02,NEDV,15,21
+2017-06-03,NEDV,12,19
+2017-06-04,NEDV,13,21
+2017-06-05,NEDV,12,24
+2017-06-06,NEDV,13,19
+2017-06-07,NEDV,13,21
+2017-06-08,NEDV,14,25
+2017-06-09,NEDV,13,21
+2017-06-10,NEDV,11,22
+2017-06-08,South Division Business Class,1,0
+2017-06-01,South Division Corporate (Also applies to NonUnivision and Univi,18,48
+2017-06-02,South Division Corporate (Also applies to NonUnivision and Univi,19,48
+2017-06-03,South Division Corporate (Also applies to NonUnivision and Univi,16,46
+2017-06-04,South Division Corporate (Also applies to NonUnivision and Univi,16,46
+2017-06-05,South Division Corporate (Also applies to NonUnivision and Univi,17,44
+2017-06-06,South Division Corporate (Also applies to NonUnivision and Univi,18,45
+2017-06-07,South Division Corporate (Also applies to NonUnivision and Univi,19,45
+2017-06-08,South Division Corporate (Also applies to NonUnivision and Univi,17,45
+2017-06-09,South Division Corporate (Also applies to NonUnivision and Univi,19,48
+2017-06-10,South Division Corporate (Also applies to NonUnivision and Univi,17,47
+2017-06-01,Triple Play,5,44
+2017-06-02,Triple Play,5,44
+2017-06-03,Triple Play,5,44
+2017-06-04,Triple Play,5,44
+2017-06-05,Triple Play,4,43
+2017-06-06,Triple Play,4,43
+2017-06-07,Triple Play,5,44
+2017-06-08,Triple Play,5,44
+2017-06-09,Triple Play,5,44
+2017-06-10,Triple Play,5,44
+2017-06-01,Video/TV,8,5
+2017-06-02,Video/TV,7,5
+2017-06-03,Video/TV,10,7
+2017-06-04,Video/TV,10,7
+2017-06-05,Video/TV,8,5
+2017-06-06,Video/TV,10,9
+2017-06-07,Video/TV,8,6
+2017-06-08,Video/TV,9,8
+2017-06-09,Video/TV,8,5
+2017-06-10,Video/TV,6,5
+2017-06-01,WSDV,16,40
+2017-06-02,WSDV,18,40
+2017-06-03,WSDV,17,41
+2017-06-04,WSDV,16,38
+2017-06-05,WSDV,15,41
+2017-06-06,WSDV,14,39
+2017-06-07,WSDV,16,44
+2017-06-08,WSDV,17,45
+2017-06-09,WSDV,15,43
+2017-06-10,WSDV,16,43
+2017-06-01,Xfinity Home Security,4,16
+2017-06-02,Xfinity Home Security,1,15
+2017-06-03,Xfinity Home Security,1,15
+2017-06-04,Xfinity Home Security,1,15
+2017-06-05,Xfinity Home Security,1,15
+2017-06-06,Xfinity Home Security,1,16
+2017-06-07,Xfinity Home Security,1,16
+2017-06-08,Xfinity Home Security,1,17
+2017-06-09,Xfinity Home Security,2,18
+2017-06-10,Xfinity Home Security,1,16

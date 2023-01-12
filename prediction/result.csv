@@ -1,0 +1,20 @@
+                            Statespace Model Results                           
+Dep. Variable:  ,y                             ,  No. Observations:  ,176      
+Model:          ,SARIMAX(3, 1, 0)x(0, 1, 2, 12),  Log Likelihood     ,-1958.320
+Date:           ,Mon, 25 Dec 2017              ,  AIC                ,3930.639 
+Time:           ,18:24:56                      ,  BIC                ,3952.833 
+Sample:         ,0                             ,  HQIC               ,3939.641 
+                , - 176                        ,                     ,         
+Covariance Type:,opg                           ,                     ,         
+         ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+intercept, 2091.8044, 1400.007,    1.494, 0.135, -652.159, 4835.767
+ar.L1    ,   -0.4183,    0.093,   -4.515, 0.000,   -0.600,   -0.237
+ar.L2    ,   -0.4821,    0.109,   -4.421, 0.000,   -0.696,   -0.268
+ar.L3    ,   -0.0868,    0.098,   -0.890, 0.374,   -0.278,    0.105
+ma.S.L12 ,   -0.9069,    0.145,   -6.268, 0.000,   -1.190,   -0.623
+ma.S.L24 ,    0.0931,    0.131,    0.711, 0.477,   -0.164,    0.350
+sigma2   , 1.808e+09,    0.000, 4.48e+12, 0.000, 1.81e+09, 1.81e+09
+Ljung-Box (Q):         ,197.86,  Jarque-Bera (JB):  ,20.14
+Prob(Q):               ,0.00  ,  Prob(JB):          ,0.00 
+Heteroskedasticity (H):,1.24  ,  Skew:              ,0.79 
+Prob(H) (two-sided):   ,0.44  ,  Kurtosis:          ,3.70 

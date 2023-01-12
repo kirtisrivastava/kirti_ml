@@ -1,0 +1,2 @@
+User,Db_connection,username,password,database
+comcast,"10.10.100.117","imdesk","imd!m3","comcast_cube"
